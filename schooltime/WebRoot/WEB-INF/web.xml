@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name></display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>coreservlet.login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/coreservlet/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>phoneregister</servlet-name>
+		<servlet-class>coreservlet.phoneregister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>phoneregister</servlet-name>
+		<url-pattern>/coreservlet/phoneregister</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>registerinfo</servlet-name>
+		<servlet-class>coreservlet.registerinfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registerinfo</servlet-name>
+		<url-pattern>/coreservlet/registerinfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>registerschool</servlet-name>
+		<servlet-class>coreservlet.registerschool</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registerschool</servlet-name>
+		<url-pattern>/coreservlet/registerschool</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getinactivity</servlet-name>
+		<servlet-class>coreservlet.getinactivity</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getinactivity</servlet-name>
+		<url-pattern>/coreservlet/getinactivity</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>takepartinactivity</servlet-name>
+		<servlet-class>coreservlet.takepartinactivity</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>takepartinactivity</servlet-name>
+		<url-pattern>/coreservlet/takepartinactivity</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getinactivitydetail</servlet-name>
+		<servlet-class>coreservlet.getinactivitydetail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getinactivitydetail</servlet-name>
+		<url-pattern>/coreservlet/getinactivitydetail</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sendattachment</servlet-name>
+		<servlet-class>coreservlet.sendattachment</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sendattachment</servlet-name>
+		<url-pattern>/coreservlet/sendattachment</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addcomment</servlet-name>
+		<servlet-class>coreservlet.addcomment</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addcomment</servlet-name>
+		<url-pattern>/coreservlet/addcomment</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getcomment</servlet-name>
+		<servlet-class>coreservlet.getcomment</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getcomment</servlet-name>
+		<url-pattern>/coreservlet/getcomment</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getteam</servlet-name>
+		<servlet-class>coreservlet.getteam</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getteam</servlet-name>
+		<url-pattern>/coreservlet/getteam</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getsignupinfo</servlet-name>
+		<servlet-class>coreservlet.getsignupinfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getsignupinfo</servlet-name>
+		<url-pattern>/coreservlet/getsignupinfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>attendonly</servlet-name>
+		<servlet-class>coreservlet.attendonly</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>attendonly</servlet-name>
+		<url-pattern>/coreservlet/attendonly</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>attendotherteam</servlet-name>
+		<servlet-class>coreservlet.attendotherteam</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>attendotherteam</servlet-name>
+		<url-pattern>/coreservlet/attendotherteam</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>attendcreateteam</servlet-name>
+		<servlet-class>coreservlet.attendcreateteam</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>attendcreateteam</servlet-name>
+		<url-pattern>/coreservlet/attendcreateteam</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>test</servlet-name>
+		<servlet-class>coreservlet.test</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>test</servlet-name>
+		<url-pattern>/coreservlet/test</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getoutactivity</servlet-name>
+		<servlet-class>coreservlet.getoutactivity</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getoutactivity</servlet-name>
+		<url-pattern>/coreservlet/getoutactivity</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>takepartoutactivity</servlet-name>
+		<servlet-class>coreservlet.takepartoutactivity</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>takepartoutactivity</servlet-name>
+		<url-pattern>/coreservlet/takepartoutactivity</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sendattachmentout</servlet-name>
+		<servlet-class>coreservlet.sendattachmentout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sendattachmentout</servlet-name>
+		<url-pattern>/coreservlet/sendattachmentout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getoutactivitydetail</servlet-name>
+		<servlet-class>coreservlet.getoutactivitydetail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getoutactivitydetail</servlet-name>
+		<url-pattern>/coreservlet/getoutactivitydetail</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getmyactivity</servlet-name>
+		<servlet-class>coreservlet.getmyactivity</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getmyactivity</servlet-name>
+		<url-pattern>/coreservlet/getmyactivity</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getsigninlist</servlet-name>
+		<servlet-class>coreservlet.getsigninlist</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getsigninlist</servlet-name>
+		<url-pattern>/coreservlet/getsigninlist</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>quitmyactivity</servlet-name>
+		<servlet-class>coreservlet.quitmyactivity</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>quitmyactivity</servlet-name>
+		<url-pattern>/coreservlet/quitmyactivity</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>mysignin</servlet-name>
+		<servlet-class>coreservlet.mysignin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mysignin</servlet-name>
+		<url-pattern>/coreservlet/mysignin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>loginweb</servlet-name>
+		<servlet-class>coreservlet.loginweb</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginweb</servlet-name>
+		<url-pattern>/coreservlet/loginweb</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getmanagelist</servlet-name>
+		<servlet-class>coreservlet.getmanagelist</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getmanagelist</servlet-name>
+		<url-pattern>/coreservlet/getmanagelist</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>managernotice</servlet-name>
+		<servlet-class>coreservlet.managernotice</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>managernotice</servlet-name>
+		<url-pattern>/coreservlet/managernotice</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>quitteam</servlet-name>
+		<servlet-class>coreservlet.quitteam</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>quitteam</servlet-name>
+		<url-pattern>/coreservlet/quitteam</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>teammanager</servlet-name>
+		<servlet-class>coreservlet.teammanager</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>teammanager</servlet-name>
+		<url-pattern>/coreservlet/teammanager</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>changepwd</servlet-name>
+		<servlet-class>coreservlet.changepwd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>changepwd</servlet-name>
+		<url-pattern>/coreservlet/changepwd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>submitsuggestion</servlet-name>
+		<servlet-class>coreservlet.submitsuggestion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>submitsuggestion</servlet-name>
+		<url-pattern>/coreservlet/submitsuggestion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>getActivityIntegral</servlet-name>
+		<servlet-class>coreservlet.getActivityIntegral</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getActivityIntegral</servlet-name>
+		<url-pattern>/coreservlet/getActivityIntegral</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>getmajor</servlet-name>
+		<servlet-class>coreservlet.getmajor</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getmajor</servlet-name>
+		<url-pattern>/coreservlet/getmajor</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>changeinfo</servlet-name>
+		<servlet-class>coreservlet.changeinfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>changeinfo</servlet-name>
+		<url-pattern>/coreservlet/changeinfo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>callover</servlet-name>
+		<servlet-class>coreservlet.callover</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>callover</servlet-name>
+		<url-pattern>/coreservlet/callover</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>getbackpwd</servlet-name>
+		<servlet-class>coreservlet.getbackpwd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getbackpwd</servlet-name>
+		<url-pattern>/coreservlet/getbackpwd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>getschoolnotice</servlet-name>
+		<servlet-class>coreservlet.getschoolnotice</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getschoolnotice</servlet-name>
+		<url-pattern>/coreservlet/getschoolnotice</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>getsystemnotice</servlet-name>
+		<servlet-class>coreservlet.getsystemnotice</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getsystemnotice</servlet-name>
+		<url-pattern>/coreservlet/getsystemnotice</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>getupdateteam</servlet-name>
+		<servlet-class>coreservlet.getupdateteam</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getupdateteam</servlet-name>
+		<url-pattern>/coreservlet/getupdateteam</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>getmyactivityid</servlet-name>
+		<servlet-class>coreservlet.getmyactivityid</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getmyactivityid</servlet-name>
+		<url-pattern>/coreservlet/getmyactivityid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>registercity</servlet-name>
+		<servlet-class>coreservlet.registercity</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registercity</servlet-name>
+		<url-pattern>/coreservlet/registercity</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>getversion</servlet-name>
+		<servlet-class>coreservlet.getversion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getversion</servlet-name>
+		<url-pattern>/coreservlet/getversion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>getpwd</servlet-name>
+		<servlet-class>coreservlet.getpwd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getpwd</servlet-name>
+		<url-pattern>/coreservlet/getpwd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>logintime</servlet-name>
+		<servlet-class>coreservlet.logintime</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logintime</servlet-name>
+		<url-pattern>/coreservlet/logintime</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>getmyactivityios</servlet-name>
+		<servlet-class>coreservlet.getmyactivityios</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getmyactivityios</servlet-name>
+		<url-pattern>/coreservlet/getmyactivityios</url-pattern>
+	</servlet-mapping>
+</web-app>
